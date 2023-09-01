@@ -2,8 +2,8 @@ const express = require("express");
 const { MongoClient, ObjectId } = require("mongodb");
 
 // const url = "mongodb://localhost:27017";
-const url = "mongodb://127.0.0.1:27017";
-// const url = "mongodb+srv://wellingtondorta:gtQAXQflNQvIekHH@cluster0.sq2qjla.mongodb.net";
+//const url = "mongodb://127.0.0.1:27017";
+const url = "mongodb+srv://wellingtondorta:gtQAXQflNQvIekHH@cluster0.sq2qjla.mongodb.net";
 const dbName = "jornada-backend-agosto-23";
 const client = new MongoClient(url);
 
